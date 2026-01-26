@@ -1,0 +1,25 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    justify-content: right;
+    background-color: black;
+    color:  rgba(211, 211, 211, .675);
+    display:flex;
+    flex-direction: column;
+}
+
+.footer-pages {
+    display:flex;
+    flex-direction: column;
+    align-items: right;
+    margin-bottom: 5px 0;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-pages a:hover {
+    text-decoration: underline;
+    color:aqua;
+    gap: 5px;
+}
