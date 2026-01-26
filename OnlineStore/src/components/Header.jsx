@@ -1,6 +1,8 @@
 import './Header.css';
 
-function Header() {
+function Header({cartCount}) {
+
+
   return (
     <header className="app-header">
         <h1 className="logo">OnlineStore</h1>
@@ -9,8 +11,10 @@ function Header() {
           <a href="#" className="nav-link">Products</a>
           <a href="#" className="nav-link">About</a>
           <a href="#" className="nav-link">Contact</a>
+          <div className="cart">
+            <span className="cart-count">🛒 {cartCount}</span>
+          </div>
         </nav>
-        <button className="cart-btn"> Cart</button>
     </header>
   );
 }

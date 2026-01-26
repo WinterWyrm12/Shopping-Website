@@ -29,15 +29,15 @@
     color: #0095f6;
 }
 
-.cart-btn {
-    background: #0095f6;
+.post-btn:hover {
+    background: #0086e0;
+}
+
+.cart {
+    background: black;
     color: white;
     border: none;
     padding: 8px 16px;
-    border-radius: 8px;
+    border-radius: 100%;
     cursor: pointer;
-}
-
-.post-btn:hover {
-    background: #0086e0;
 }

@@ -29,3 +29,13 @@
     font-weight: bold;
     color: blue;
 }
+
+.action-btns button{
+    background-color: rgb(152, 0, 0);
+    color: white;
+    border:none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
